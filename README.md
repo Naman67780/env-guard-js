@@ -20,13 +20,13 @@ Validate environment variables before your application starts. Supports required
 ## Installation
 
 ```bash
-npm install env-guard-js
+npm install @namansaini/env-guard-js
 ```
 
 ## Quick Start
 
 ```javascript
-const { validateEnv } = require("env-guard-js");
+const { validateEnv } = require("@namansaini/env-guard-js");
 
 const config = validateEnv({
   PORT: {
@@ -78,7 +78,7 @@ console.log(config);
 You can provide your own validation function.
 
 ```javascript
-const { validateEnv } = require("env-guard-js");
+const { validateEnv } = require("@namansaini/env-guard-js");
 
 const config = validateEnv({
   API_KEY: {
@@ -99,7 +99,7 @@ The library provides a custom `EnvValidationError` class.
 const {
   validateEnv,
   EnvValidationError
-} = require("env-guard-js");
+} = require("@namansaini/env-guard-js");
 
 try {
   const config = validateEnv({
@@ -124,7 +124,7 @@ try {
 You can supply your own environment object instead of using `process.env`.
 
 ```javascript
-const { validateEnv } = require("env-guard-js");
+const { validateEnv } = require("@namansaini/env-guard-js");
 
 const config = validateEnv(
   {

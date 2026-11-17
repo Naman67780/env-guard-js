@@ -1,6 +1,6 @@
 
 {
-  "name": "env-guard-js",
+  "name": "@namansaini/env-guard-js",
   "version": "0.1.0",
   "description": "A lightweight environment variable validation library for Node.js",
   "keywords": [
