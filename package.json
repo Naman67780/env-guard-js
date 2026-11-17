@@ -1,0 +1,39 @@
+
+{
+  "name": "env-guard-js",
+  "version": "0.1.0",
+  "description": "A lightweight environment variable validation library for Node.js",
+  "keywords": [
+    "environment",
+    "validation",
+    "nodejs",
+    "config"
+  ],
+  "homepage": "https://github.com/Naman67780/env-guard-js#readme",
+  "bugs": {
+    "url": "https://github.com/Naman67780/env-guard-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naman67780/env-guard-js.git"
+  },
+  "license": "MIT",
+  "author": "Naman Saini",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
